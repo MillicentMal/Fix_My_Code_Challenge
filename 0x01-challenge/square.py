@@ -21,11 +21,11 @@ class Square():
     
     def __str__(self):
         """return square format"""
-        return "{}*{}".format(self.width, self.height)
+        return "{}*{}".format(self.width, self.width)
 
 
 if __name__ == "__main__":
-    s = Square(width=12, height=9)
+    s = Square(width=12)
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())
